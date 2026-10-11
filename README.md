@@ -269,4 +269,4 @@ PawHome incorporates modern security best practices:
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for complete details.
+This project is licensed under **All Rights Reserved** (Copyright © 2026 Mahiduzzaman Rafee). It is published for portfolio and educational viewing purposes only. See the [LICENSE](LICENSE) file for complete details.
