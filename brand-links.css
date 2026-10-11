@@ -1,0 +1,125 @@
+
+a {
+  color: #c1663c;
+  text-decoration: none;
+}
+
+.brand,
+.brand:visited,
+.pet-card,
+.pet-card:visited,
+.pet-tile,
+.pet-tile:visited,
+.history-row,
+.history-row:visited,
+.row-clickable,
+.row-clickable:visited {
+  color: inherit;
+}
+
+.nav-links a,
+.nav-links a:visited {
+  color: #66606c;
+}
+
+.nav-links a:hover,
+.nav-links a.active,
+.nav-links a.active:visited {
+  color: #2e2a33;
+}
+
+.btn,
+.btn:visited,
+.btn:hover,
+.btn-outline,
+.btn-outline:visited,
+.btn-outline:hover {
+  color: #2e2a33;
+  text-decoration: none;
+}
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:hover,
+.btn-submit,
+.btn-submit:visited,
+.btn-submit:hover,
+.btn-small,
+.btn-small:visited,
+.btn-small:hover,
+.btn-apply,
+.btn-apply:visited,
+.btn-apply:hover,
+.btn-report,
+.btn-report:visited,
+.btn-report:hover,
+.btn-orange,
+.btn-orange:visited,
+.btn-orange:hover,
+.btn-approve,
+.btn-approve:visited,
+.btn-approve:hover,
+.btn-logout,
+.btn-logout:visited,
+.btn-logout:hover,
+.logout,
+.logout:visited,
+.logout:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-danger,
+.btn-danger:visited,
+.btn-danger:hover,
+.btn-reject,
+.btn-reject:visited,
+.btn-reject:hover {
+  color: #8f261f;
+}
+
+.tab,
+.tab:visited,
+.tab:hover {
+  color: #2e2a33;
+  text-decoration: none;
+}
+
+.tab.active,
+.tab.active:visited,
+.tab.active:hover,
+.checkup-panel:has(#prescriptionPanel:target) [href="#prescriptionPanel"],
+.checkup-panel:has(#vaccinationPanel:target) [href="#vaccinationPanel"] {
+  color: #fff;
+}
+
+.icon-btn,
+.icon-btn:visited,
+.icon-btn:hover,
+.modal-close,
+.modal-close:visited,
+.modal-close:hover {
+  color: #2e2a33;
+  text-decoration: none;
+}
+
+.icon-btn,
+.modal-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.success-modal .modal-close,
+.success-modal .modal-close:visited,
+.success-modal .modal-close:hover {
+  color: #fff;
+}
+
+a:focus-visible {
+  outline: 2px solid #c1663c;
+  outline-offset: 2px;
+}

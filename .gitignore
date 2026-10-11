@@ -1,0 +1,30 @@
+# Environment & Secret files
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+
+# Local configuration overrides
+config.local.php
+
+# User uploads - ignore runtime uploads but keep directory structure and protection
+uploads/pets/*
+!uploads/pets/.htaccess
+!uploads/pets/.gitkeep
+
+uploads/private/*
+!uploads/private/.htaccess
+!uploads/private/.gitkeep
+uploads/private/*/*
+!uploads/private/*/.gitkeep
+
+# Operating system & Editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
